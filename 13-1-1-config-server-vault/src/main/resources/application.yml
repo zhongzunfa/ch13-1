@@ -1,0 +1,21 @@
+server:
+  port: 9090
+spring:
+  application:
+    name: 13-1-1-config-server-vault
+  cloud:
+    config:
+      server:
+        vault:
+          token: a2f33d87-5dbf-8ea9-b74d-5b44beae2f19
+          scheme: http
+          uri: http://192.168.1.109:8200
+          host: 192.168.1.109
+          port: 8200
+      label: master
+  profiles:
+    active: vault
+
+logging:
+      level:
+          root: INFO

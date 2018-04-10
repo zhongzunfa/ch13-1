@@ -1,0 +1,9 @@
+spring:
+    cloud:
+        config:
+            label: master
+            uri: http://localhost:9090
+            name: myapp
+            profile: default
+            token: a2f33d87-5dbf-8ea9-b74d-5b44beae2f19
+

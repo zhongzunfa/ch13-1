@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: 13-1-1-config-client-vault
+
+server:
+  port: 9099
+
+logging:
+      level:
+          root: INFO
